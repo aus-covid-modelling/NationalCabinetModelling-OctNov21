@@ -1,3 +1,6 @@
 [submodule "ttiq-simulation"]
 	path = ttiq-simulation
 	url = git@github.com:njtierney/ttiq-simulation.git
+[submodule "contact_matrices_australia"]
+	path = contact_matrices_australia
+	url = git@github.com:goldingn/contact_matrices_australia.git
