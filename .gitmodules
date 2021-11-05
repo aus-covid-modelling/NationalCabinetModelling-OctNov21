@@ -4,3 +4,6 @@
 [submodule "contact_matrices_australia"]
 	path = contact_matrices_australia
 	url = git@github.com:goldingn/contact_matrices_australia.git
+[submodule "quarantine_abm"]
+	path = quarantine_abm
+	url = git@github.com:cjzachreson/COVID-19_Quarantine_ABM_NatCab.git
