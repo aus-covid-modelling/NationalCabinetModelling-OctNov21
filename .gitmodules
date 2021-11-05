@@ -1,0 +1,3 @@
+[submodule "ttiq-simulation"]
+	path = ttiq-simulation
+	url = git@github.com:njtierney/ttiq-simulation.git
