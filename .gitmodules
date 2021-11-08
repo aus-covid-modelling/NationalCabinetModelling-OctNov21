@@ -8,5 +8,5 @@
 	path = quarantine_abm
 	url = git@github.com:cjzachreson/COVID-19_Quarantine_ABM_NatCab.git
 [submodule "packagethree"]
-	path = packagethree
+	path = population_abm_package3
 	url = https://MJLydeamore@bitbucket.org/work-packages/packagethree.git
