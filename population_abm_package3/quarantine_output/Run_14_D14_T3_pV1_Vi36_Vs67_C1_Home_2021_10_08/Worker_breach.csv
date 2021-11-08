@@ -1,0 +1,2 @@
+exposure_days,t_latent,t_incubation,t_post_incubation,tested_positive,expressed_symptoms,time_discharged,symptomatic,vaccinated,FoI_max,FoI_community
+0.0,0.0,0.0,0.0,0,0,0.0,0,0,0.0,0.0

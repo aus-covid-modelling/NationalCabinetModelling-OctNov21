@@ -1,0 +1,8 @@
+#!/bin/bash
+#SBATCH --job-name=All_scenarios
+#SBATCH --time=00:30:00
+#SBATCH --ntasks=1
+#SBATCH --mem-per-cpu=4096
+#SBATCH --cpus-per-task=1
+Rscript create_arrivals_linelist.R
+
