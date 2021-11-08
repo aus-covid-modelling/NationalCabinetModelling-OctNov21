@@ -11,8 +11,12 @@ The script to reproduce the work from LGAs is contained in [contact_matrices_aus
 ## First Nations Austalians substream
 The script to produce the effects on transmission potential by area is in [contact_matrices_australia/nt_aboriginal_communities.R](https://github.com/goldingn/contact_matrices_australia/blob/237bda4a083721801b91d63a197e86f71b98feb2/nt_aboriginal_communities.R)
 
-# Work Package 3
+The transmission model and clinical pathways model are located in [remote_communities_transmission_model](remote_communities_transmission_model) and [remote_communities_clinical_pathways_model](remote_communities_clinical_pathways_model) respectively. Please see the separate READMEs for each model (located [here](remote_communities_transmission_model/README_remote_communities_abm.md) and [here](remote_communities_clinical_pathways_model_model/README_remote_communities_cp.md)) for more specific information on these models.
 
+# Work Package 3
+The quarantine model is contained in [quarantine_abm](quarantine_abm). This agent based model is what is used to generate the breach events from the quarantine system to be seeded in the community.
+
+The population level model is contained in [population_abm_package3](population_abm_package3). This model takes outputs from the quarantine ABM, transforms them into an appropriate format (using [create_arrivals_linelist.R](population_abm_package3/create_arrivals_linelist.R)) and seeds infections in the community.
 
 # Parameter updates
 The script to update estimates of infectiousness and susceptibility by age is in [contact_matrices_australia/calibrate_settings.R](https://github.com/goldingn/contact_matrices_australia/blob/237bda4a083721801b91d63a197e86f71b98feb2/calibrate_settings.R)
