@@ -10,3 +10,6 @@
 [submodule "population_abm_package3"]
 	path = population_abm_package3
 	url = https://MJLydeamore@bitbucket.org/work-packages/packagethree.git
+[submodule "schools_abm"]
+	path = schools_abm
+	url = https://github.com/optimamodel/covasim_aus_schools
