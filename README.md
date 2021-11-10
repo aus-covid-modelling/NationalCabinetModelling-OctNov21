@@ -13,6 +13,9 @@ The script to produce the effects on transmission potential by area is in [conta
 
 The transmission model and clinical pathways model are located in [remote_communities_transmission_model](remote_communities_transmission_model) and [remote_communities_clinical_pathways_model](remote_communities_clinical_pathways_model) respectively. Please see the separate READMEs for each model (located [here](remote_communities_transmission_model/README_remote_communities_abm.md) and [here](remote_communities_clinical_pathways_model_model/README_remote_communities_cp.md)) for more specific information on these models.
 
+## Schools substream
+The COVASIM model used for the Schools substream is in [schools_abm](schools_abm). Please see the readme in that repository for details on exactly how to run that model.
+
 # Work Package 3
 The quarantine model is contained in [quarantine_abm](quarantine_abm). This agent based model is what is used to generate the breach events from the quarantine system to be seeded in the community.
 
