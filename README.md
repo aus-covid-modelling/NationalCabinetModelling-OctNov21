@@ -8,7 +8,7 @@ The various models for assessment of test, trace, isolation and quarantine (TTIQ
 ## Local Government and small area effects substream
 The script to reproduce the work from LGAs is contained in [contact_matrices_australia/lgas.R](https://github.com/goldingn/contact_matrices_australia/blob/237bda4a083721801b91d63a197e86f71b98feb2/lgas.R). The work-from-home effect can be calculated using [contact_matrices_australia/wfh.R](https://github.com/goldingn/contact_matrices_australia/blob/237bda4a083721801b91d63a197e86f71b98feb2/wfh.R). Maps can be drawn using [contact_matrices_australia/mapping.R](https://github.com/goldingn/contact_matrices_australia/blob/237bda4a083721801b91d63a197e86f71b98feb2/mapping.R).
 
-## First Nations Austalians substream
+## First Nations Australians substream
 The script to produce the effects on transmission potential by area is in [contact_matrices_australia/nt_aboriginal_communities.R](https://github.com/goldingn/contact_matrices_australia/blob/237bda4a083721801b91d63a197e86f71b98feb2/nt_aboriginal_communities.R)
 
 The transmission model and clinical pathways model are located in [remote_communities_transmission_model](remote_communities_transmission_model) and [remote_communities_clinical_pathways_model](remote_communities_clinical_pathways_model) respectively. Please see the separate READMEs for each model (located [here](remote_communities_transmission_model/README_remote_communities_abm.md) and [here](remote_communities_clinical_pathways_model_model/README_remote_communities_cp.md)) for more specific information on these models.
